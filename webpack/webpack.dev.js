@@ -7,7 +7,7 @@ module.exports = require('./webpack.common')({
 
   // Add hot reloading in development
   entry: [
-    path.join(process.cwd(), 'src/app.js'), // Start with js/app.js
+    path.join(process.cwd(), 'src/index.js'), // Start with js/app.js
   ],
 
   // Add development plugins

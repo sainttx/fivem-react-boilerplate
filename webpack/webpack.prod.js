@@ -6,7 +6,7 @@ module.exports = require('./webpack.common')({
   mode: 'production',
 
   // In production, we skip all hot-reloading stuff
-  entry: [path.join(process.cwd(), 'src/app.js')],
+  entry: [path.join(process.cwd(), 'src/index.js')],
 
   plugins: [
     new HtmlWebpackPlugin({
